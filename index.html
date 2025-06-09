@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laura Franco Portfolio</title>
+<!-- Linking Font Awsome for icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="risorse/logo_laurafranco.png" type="image/png">
+</head>
+<body>
+
+	<button class="go-top-btn">
+		<img src="risorse/arrow_up.png" alt="arrow up">
+	</button>
+
+	
+	<!-- Header / Navbar -->
+	<header>
+		<nav class="navbar section-content">
+			<a href="index.html" class="nav-logo">
+				<h2 class="logo-text"> LAURA FRANCO</h2>
+			</a>
+			<ul class="nav-menu">
+				<button id="menu-close-button" class="fas fa-times"></button>
+				<li class="nav-item">
+					<a href="#home" class="nav-link">Home</a>
+				</li>	
+				<li class="nav-item">
+					<a href="#aboutme" class="nav-link">About Me</a>
+				</li>	
+				<li class="nav-item">
+					<a href="#projects" class="nav-link">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contacts" class="nav-link">Contacts</a>
+				</li>
+			</ul>
+
+			<button id="menu-open-button" class="fas fa-bars"></button>
+		</nav>
+	</header>
+
+	<main>
+		<!-- Hero section -->
+		<section class="hero-section" id="home">
+			<div class="section-content">
+				<div class="hero-details">
+					<h2 class="description"> I love helping companies recognize their strenghts and <span style="color: #F5B041;">opportunities to grow</span></h2>
+					<h2 class="sub-description"> My mission is empowering users by making their experience truly <span style="color: #F5B041;">seen</span></h2>
+					<p class="intro">My name is Laura, I’m an Interaction Designer and User Insights & UX Researcher with a background in healthcare innovation, cross-functional teamwork, and inclusive design.
+					</p>
+				</div>
+				<div class="hero-image-wrapper">
+					<img src="risorse/foto_mia.jpg" alt="Hero" class="hero-image"></img>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- About me section -->
+		<section class="about-section" id="aboutme">
+			<div class="section-content">
+				<div class="about-image-wrapper">
+					<img src="risorse/about me.jpg" alt="About Me" class="about-image">
+				</div>
+				<div class="about-details">
+					<h2 class="section-title">About Me</h2>
+					<p class="text">I’m curious about people, what they hope for, what they struggle with, and how they use products or services in real life. I love digging into these stories and turning them into designs that actually make a difference, not just for the people using the product but also for the teams and companies behind it
+					</p>
+				<div class="buttons">
+					<a href="about me.html" class="button more-about-me">More About Me</a>
+					<a href="#contacts" class="button contact-me">Contact Me</a>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<!-- Project section --> 
+		<section class="project-section" id="projects">
+			<h2 class="section-title">Projects</h2>
+			<div class="container">
+				<div class="filter-buttons">
+  			 		<button class="active" data-filter="all">All</button>
+   			 		<button data-filter="medical">Medical</button>
+    		 		<button data-filter="research">Research</button>
+    		 		<button data-filter="forniture">Forniture</button>
+    		 	</div>
+ 			</div>
+
+			<div class="section-content">
+				<ul class="project-list">
+					<!--<li class="project-item" data-category="medical">
+						<a href="#">
+							<img src="risorse/ossur_card.png" alt="medical" class="project-image">
+  							<div class="overlay">
+   								 <div class="overlay_text">Hello World</div>
+  							</div>
+						</a>
+					</li>--> 
+					<li class="project-item" data-category="medical">
+						<a href="#">
+							<img src="risorse/baby_card.png" alt="medical" class="project-image">
+						</a>
+					</li>
+					<li class="project-item" data-category="medical">
+						<a href="product-remo.html">
+							<img src="risorse/remo_card.png" alt="medical" class="project-image">
+						</a>
+					</li>
+					<li class="project-item" data-category="medical">
+						<a href="product-baby.html">
+							<img src="risorse/baby_card.png" alt="medical" class="project-image">
+						</a>
+					</li>
+					<li class="project-item" data-category="research">
+						<a href="product-vegetable.html">
+							<img src="risorse/vege_card.png" alt="research" class="project-image">
+						</a>
+					</li>
+					<li class="project-item" data-category="research">
+						<a href="product-step.html">
+							<img src="risorse/step_card.png" alt="research" class="project-image">
+						</a>
+					</li>
+					<li class="project-item" data-category="research">
+						<a href="product-airfryer.html">
+							<img src="risorse/airfryer_card.png" alt="research" class="project-image">
+						</a>
+					</li>
+					<!--<li class="project-item" data-category="product">
+						<a href="product-lamp.html">
+							<img src="risorse/lamp_card.png" alt="product" class="project-image">
+						</a>
+					</li>--> 
+					<li class="project-item" data-category="forniture">
+						<a href="#">
+							<img src="risorse/chair_card.png" alt="product" class="project-image">
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+
+		<!-- Contact section --> 
+		<section class="contact-section" id="contacts">
+			<h2 class="section-title">Contact Me</h2>
+			<div class="section-content">
+				<ul class="contact-info-list">
+					<li class="contact-info">
+						<i class="fa-solid fa-phone"></i>
+						<p>(+39) 334-1443867</p>
+					</li>
+					<li class="contact-info">
+						<i class="fa-regular fa-envelope"></i>
+						<p>lafranco.1999@libero.it</p>
+					</li>
+					<li class="contact-info">
+						<i class="fa-brands fa-linkedin"></i>
+						<p><a href="https://www.linkedin.com/in/laura-franco-974574222/">Laura Franco - Linkeding profile</a></p>
+					</li>
+				</ul>
+
+				<form action="https://formsubmit.co/lafranco.1999@libero.it" class="contact-form" method="POST">
+					<input type="text" name="name" required placeholder="Your name" class="form-input">
+					<input type="email" name="email" required placeholder="Your email" class="form-input">
+					<textarea name="message" required placeholder="Your message" class="form-input"></textarea>
+					<button type="submit" class="submit-button">Submit</button>
+				  </form>
+				  
+			</div>
+		</section>
+
+
+		<!-- Footer section -->
+		<footer class="footer-section">
+			<div class="section-content">
+				<p class="copyright-text">© 2025 Laura Franco</p>
+
+				<p class="policy-text">
+					<a href="#" class="policy-link">Privacy policy</a>
+					<!--<span class="separator">•</span>-->
+				</p>
+			</div>
+		</footer>
+	</main>
+
+	<script src="myscripts.js"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>
